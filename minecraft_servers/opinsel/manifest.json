@@ -1,37 +1,47 @@
 {
-    "server_name": "opinsel",
-    "nice_name": "OpInsel",
-    "direct_ip": "mc.opinsel.net",
-    "server_wildcards": [
-      "%.opinsel.net",
-      "%.opinsel.com"
-    ],
-    "gamemodes": {
-        "skyblock": {
-          "name": "Skyblock", 
-          "color": "#Ff0000",
-          "command": "/server skyblock",
-          "versions": "1.21<*"
-        }
+  "server_name": "noovex",
+  "nice_name": "Noovex",
+  "direct_ip": "noovex.net",
+  "server_wildcards": [
+    "%.noovex.net",
+    "%.noovex.de"
+  ],
+  "gamemodes": {
+    "lobby": {
+      "name": "Lobby",
+      "color": "#FFFFFF",
+      "command": "/l",
+      "versions": "1.21.10"
     },
-    "discord": {
-        "server_id": 954852149882388550,
-        "rename_to_minecraft_name": false
-      },
-    "supported_languages": [
-        "de",
-        "en"
-    ],
-    "social": {
-        "web": "https://opinsel.net",
-        "web_shop": "https://opinsel.net/shop",
-        "discord": "https://discord.gg/YW9CSJC6VB",
-        "tiktok": "opinsel",
-        "youtube": "https://www.youtube.com/@opinsel"
+    "wintersmp": {
+      "name": "WinterSMP",
+      "color": "#FFFFFF",
+      "command": "/server wintersmp",
+      "versions": "1.21.10"
     },
-    "location": {
-        "city": "Eygelshoven",
-        "country": "Germany",
-        "country_code": "DE"
+    "dungeon": {
+      "name": "Dungeon",
+      "color": "#FFFFFF",
+      "command": "/server dungeon",
+      "versions": "1.21.10"
     }
+  },
+  "discord": {
+    "server_id": 1125575094555643984,
+    "rename_to_minecraft_name": false
+  },
+  "supported_languages": [
+    "de",
+    "en"
+  ],
+  "social": {
+    "discord": "https://discord.gg/MUksHYFHCZ",
+    "tiktok": "https://www.tiktok.com/@noovex.de",
+    "youtube": "https://www.youtube.com/@noovexde"
+  },
+  "location": {
+    "city": "Offenbach am Main",
+    "country": "Germany",
+    "country_code": "DE"
+  }
 }
